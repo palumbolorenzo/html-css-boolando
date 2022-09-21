@@ -23,7 +23,7 @@ html {
 .menu-color {
     color: white;
     text-decoration: none;
-    padding: .5em;
+    padding: .3em;
 }
 
 .boolean-logo {
@@ -38,19 +38,42 @@ html {
     
 }
 
+.button-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
 .topbar {
     background-color: rgb(255, 106, 0);
     height: 70px;
     width: 100%;
     position: fixed;
     z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main-menu-middle {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
+
+/* .rel {
+    position: relative;
+} */
+
+/* .abs {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    background: red;
+    z-index: 5;
+} */
 
 .img-top, .img-bottom {
     width: 33%;
@@ -74,6 +97,9 @@ html {
     background-color: black;
     height: 70px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main-menu-bottom {
@@ -92,3 +118,8 @@ html {
 .booleando {
     color: white;
 }
+
+.find-us {
+    color: white;
+}
+
