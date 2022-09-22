@@ -13,6 +13,11 @@ html {
     align-items: center;
 } */
 
+/* .container {
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+
 .main-menu-top {
     display: flex;
     justify-content: flex-start;
@@ -61,6 +66,8 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* .rel {
